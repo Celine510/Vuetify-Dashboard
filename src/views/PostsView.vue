@@ -36,7 +36,8 @@
           <template v-slot:default="{ isActive }">
             <v-card title="Edit Post">
               <v-card-text>
-                <PostForm ref="postForm" :post="item" />
+                <!-- closing the dialog when submit success -->
+                <PostForm ref="postForm" :post="item" @submit="$event => isActive.value = false" />
               </v-card-text>
 
               <v-card-actions>
