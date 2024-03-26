@@ -1,0 +1,1 @@
+import{N as s,K as r,P as _}from"./index-DEUr1BTG.js";const a=(e,t)=>{const o=e.__vccOpts||e;for(const[n,c]of t)o[n]=c;return o},l={},m=_("h1",null,"Comments",-1),d=[m];function f(e,t){return r(),s("div",null,d)}const u=a(l,[["render",f]]);export{u as default};
